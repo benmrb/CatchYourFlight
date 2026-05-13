@@ -259,7 +259,7 @@ Return ONLY a valid JSON object with these exact keys (no other text, no markdow
   "origin": "3-letter IATA airport code from the list above, or null if not found/not supported",
   "destination": "3-letter IATA airport code from the list above, or null if not found/not supported",
   "date": "departure date in YYYY-MM-DD format, or null if not found",
-  "departure_hour": departure hour as integer 0-23 (look for scheduled departure time), or null if not found
+  "departure_hour": "Look for DEPARTURE TIME or DEPARTS first — use that hour directly as integer 0-23. If only BOARDING TIME is shown, add 30 minutes to estimate the departure time. Return as integer 0-23, or null if not found."
 }}
  
 Look carefully at all text on the boarding pass. Flight numbers, gate info, and barcodes are not needed."""
