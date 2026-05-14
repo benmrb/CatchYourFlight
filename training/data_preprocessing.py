@@ -13,7 +13,7 @@ Abhängigkeiten:
 - data/airports.csv       (Kaggle: Flughafencodes, Städte und Koordinaten)
 - Open-Meteo Archive API  (stündliche Wetterdaten 2015)
 
-Autoren: Benjamin Marbacher, Silas Marty
+Autoren: Benjamin Marbacher
 Datum:   Mai 2026
 
 Quellen:
