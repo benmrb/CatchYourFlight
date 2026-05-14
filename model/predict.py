@@ -284,18 +284,18 @@ def predict_delay(airline, origin, destination, flight_date, dep_hour, weather_d
     # Diese Werte spiegeln die tatsächliche Pünktlichkeit der Airline wider,
     # unabhängig von der ML-Modell-Ausgabe
     # Quelle: Claude – historische Raten und Kategorisierung vollständig via Claude
-AIRLINE_DELAY_RATES = {
-    "HA": 7.9,   # Hawaiian Airlines   → sehr pünktlich
-    "AS": 11.9,  # Alaska Airlines     → pünktlich
-    "DL": 15.9,  # Delta Air Lines     → durchschnittlich
-    "AA": 18.9,  # American Airlines   → durchschnittlich
-    "OO": 19.8,  # SkyWest Airlines    → durchschnittlich
-    "B6": 22.0,  # JetBlue Airways     → hoch
-    "MQ": 22.4,  # Envoy Air           → hoch
-    "F9": 24.0,  # Frontier Airlines   → hoch
-    "WN": 24.6,  # Southwest Airlines  → hoch
-    "UA": 26.3,  # United Air Lines    → sehr hoch
-}
+    AIRLINE_DELAY_RATES = {
+        "HA": 7.9,   # Hawaiian Airlines   → sehr pünktlich
+        "AS": 11.9,  # Alaska Airlines     → pünktlich
+        "DL": 15.9,  # Delta Air Lines     → durchschnittlich
+        "AA": 18.9,  # American Airlines   → durchschnittlich
+        "OO": 19.8,  # SkyWest Airlines    → durchschnittlich
+        "B6": 22.0,  # JetBlue Airways     → hoch
+        "MQ": 22.4,  # Envoy Air           → hoch
+        "F9": 24.0,  # Frontier Airlines   → hoch
+        "WN": 24.6,  # Southwest Airlines  → hoch
+        "UA": 26.3,  # United Air Lines    → sehr hoch
+    }
  
     # Liste der Einflussfaktoren (für die UI-Anzeige) aufbauen
     # Jeder Faktor hat ein Label und ein Impact-Level (low / medium / high)
