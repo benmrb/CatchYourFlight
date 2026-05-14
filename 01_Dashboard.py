@@ -49,7 +49,7 @@ st.set_page_config(
 )
  
 # ── Navbar anzeigen ───────────────────────────────────────────────────────────
-# Zeigt die Navigationsleiste mit Flight Delay · ZRH und den Seiten-Links
+# Zeigt die Navigationsleiste
 show_navbar()
  
 # ── CSS-Ausnahme: Hero-Text weiß ─────────────────────────────────────────────
