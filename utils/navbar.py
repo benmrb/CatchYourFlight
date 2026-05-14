@@ -154,11 +154,11 @@ def show_navbar():
         # Dashboard verlinkt auf die Startseite (app.py) mit Hero und Charts
         # st.page_link() erzeugt einen internen Streamlit-Navigations-Link
         # Quelle: Claude – st.page_link() nicht im Unterricht behandelt
-        st.page_link("home.py", label="Dashboard")
+        st.page_link("01_Dashboard.py", label="Dashboard")
  
     with nav2:
         # Prediction-Link zur Vorhersage-Seite
-        st.page_link("pages/03_Prediction.py", label="Prediction")
+        st.page_link("pages/02_Prediction.py", label="Prediction")
  
     # Trennlinie unter der Navbar (dünne graue Linie, margin-bottom für Abstand zum Inhalt)
     # Quelle: Claude – HTML-hr-Styling via Claude
