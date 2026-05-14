@@ -11,7 +11,7 @@ Abhängigkeiten:
   - utils/navbar.py           (globale Navigationsleiste)
   - utils/dashboard_data.py   (aggregierte Verspätungsstatistiken)
  
-Autoren: Sára Jankovičová, Stefanie Seiler, Ben Marbacher
+Autoren: Sára Jankovičová, Stefanie Seiler, Benjamin Marbacher
 Datum:   Mai 2026
  
 Quellen:
