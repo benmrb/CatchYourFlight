@@ -154,7 +154,7 @@ def show_navbar():
         # Dashboard verlinkt auf die Startseite (app.py) mit Hero und Charts
         # st.page_link() erzeugt einen internen Streamlit-Navigations-Link
         # Quelle: Claude – st.page_link() nicht im Unterricht behandelt
-        st.page_link("app.py", label="Dashboard")
+        st.page_link("01_Dashboard.py", label="Dashboard")
  
     with nav2:
         # Prediction-Link zur Vorhersage-Seite
