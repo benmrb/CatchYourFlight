@@ -18,7 +18,7 @@ Abhängigkeiten:
 - xgboost                       (XGBClassifier)
 - joblib                        (Modelle als .pkl speichern)
 
-Autoren: Benjamin Marbacher, Silas Marty
+Autoren: Benjamin Marbacher
 Datum:   Mai 2026
 
 Quellen:
