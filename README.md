@@ -3,6 +3,10 @@
 
 ---
 
+**Live App:** https://catchyourflight.streamlit.app
+
+---
+
 ## Schnellstart
 
 **Voraussetzung:** Python 3.14 oder neuer
