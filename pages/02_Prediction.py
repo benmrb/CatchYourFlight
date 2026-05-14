@@ -13,7 +13,7 @@ Abhängigkeiten:
   - model/predict.py      (ML-Vorhersagefunktionen)
   - Anthropic Claude API  (Boarding Pass OCR/Scan)
  
-Autoren: Silas Marty, Ben Marbach
+Autoren: Silas Marty, Benjamin Marbacher
 Datum:   Mai 2026
  
 Quellen:
